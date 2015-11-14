@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script src="https://code.createjs.com/createjs-2015.05.21.min.js"></script>
+  <script src="misile.js"></script>
+  <script src="app.js"></script>
+  
+  <style type="text/css" media="screen">
+    body {
+      background-color: #ccc;
+    }
+    img.enemy{
+      position: absolute;
+      top: 100px;
+      left: 400px;
+    }
+    img.hero{
+      position: absolute;
+      top: 100px;
+      left: 0px;
+    }
+    canvas{
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <img class="hero" src="hero.jpg" height="100" alt="">
+  <img class="enemy" src="enemy.png" alt="" height="100">
+  <canvas id="animation_missile" width="800" height="300" ></canvas>
+</body>
+</html>
